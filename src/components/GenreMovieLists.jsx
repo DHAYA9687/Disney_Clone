@@ -85,7 +85,7 @@ const GenreMovieLists = () => {
     <div className="text-white">
       {genere.map(
         (item, index) =>
-          index < 20 && (
+          index < 5 && (
             <div className="p-8 px-8 md:px-16" key={item.id}>
               <h2 className="text-[20px] font-bold">{item.name}</h2>
               <MovieLists genreId={item.id} index={index} index_={index} />
